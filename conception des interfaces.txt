@@ -1,0 +1,116 @@
+ArganBioShop - Conception des Interfaces
+
+Côté Utilisateur
+1. Page d'Accueil
+Design:
+Fond blanc pour une apparence propre et accueillante.
+Accent rose bébé pour les titres et les éléments de mise en évidence.
+
+Fonctionnalités:
+Carrousel mettant en avant les produits phares.
+Liens vers les catégories avec des images attrayantes.
+Section "Articles Récents" du blog.
+
+
+2. Catalogue de Produits
+Design:
+Fond blanc pour une lecture facile.
+Détails des produits avec des images de qualité.
+Boutons d'action en rose bébé.
+
+Fonctionnalités:
+Filtrage par catégorie, prix, etc.
+Clic sur un produit pour voir plus de détails.
+
+
+3. Panier d'Achat
+Design:
+Interface épurée avec fond blanc.
+Articles répertoriés avec des icônes de produits.
+Boutons d'action en rose bébé et marron.
+
+Fonctionnalités:
+Ajout/suppression de produits avec mise à jour automatique du total.
+Bouton de passage à la caisse.
+
+
+4. Processus de Commande
+Design:
+Formulaire de livraison avec fond blanc.
+Options de paiement clairement présentées.
+Bouton de confirmation en rose bébé.
+
+Fonctionnalités:
+Saisie facile des détails de livraison.
+Choix flexible des options de paiement.
+Étapes claires pour la confirmation de la commande.
+
+
+5. Historique des Commandes
+Design:
+Liste claire des commandes avec fond blanc.
+Détails de commande structurés avec des accents en rose bébé.
+
+Fonctionnalités:
+Consultation de l'historique des transactions passées.
+Suivi transparent des commandes.
+
+
+6. Blog
+Design:
+Articles clairs et lisibles avec un fond blanc.
+Sections de commentaire avec des accents en rose bébé.
+
+Fonctionnalités:
+Articles informatifs sur les bienfaits de l'argan bio.
+Possibilité pour les utilisateurs de commenter et partager.
+
+
+Côté Administrateur
+1. Tableau de Bord d'Administration
+Design:
+Interface intuitive avec un fond blanc.
+Graphiques de vente avec des accents rose bébé.
+
+Fonctionnalités:
+Vue globale des ventes, commandes, utilisateurs et blog.
+
+
+2. Gestion des Produits
+Design:
+Interface de gestion claire avec fond blanc.
+Catégories et stocks avec des accents en marron.
+
+Fonctionnalités:
+Ajout, modification et suppression facile de produits.
+Gestion efficace des catégories et des niveaux de stock.
+
+
+3. Suivi des Commandes
+Design:
+Interface de suivi avec fond blanc.
+Statuts de commandes colorés en rose bébé.
+
+Fonctionnalités:
+Visualisation en temps réel de toutes les commandes.
+Mise à jour facile du statut pour une communication efficace.
+
+
+4. Gestion des Utilisateurs
+Design:
+Gestion d'utilisateurs sur fond blanc.
+Rôles distinctifs avec des accents en marron.
+
+Fonctionnalités:
+Ajout/suppression de nouveaux utilisateurs.
+Attribution de rôles pour un contrôle précis.
+
+
+5. Gestion du Blog
+Design:
+Interface claire de gestion du blog.
+Interaction avec les commentaires en rose bébé.
+
+Fonctionnalités:
+Création, modification et suppression d'articles.
+Interaction avec les commentaires pour maintenir le dialogue.
