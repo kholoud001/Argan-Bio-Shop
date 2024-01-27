@@ -19,6 +19,7 @@ L'objectif de ce site web est de fournir une plateforme conviviale permettant au
 - **Ajouter au panier** : Ajoutez des produits à votre panier pour un processus de commande facile.
 - **Passer une commande** : Finalisez votre commande en fournissant les détails nécessaires.
 - **Historique des commandes** : Consultez votre historique d'achats précédents.
+- **Espace Blog** : Découvrez des articles intéressants sur l'argan bio, ses bienfaits et l'impact positif sur la santé. Vous pouvez également commenter les articles pour partager vos opinions et poser des questions.
 
 ## Côté Administrateur
 
@@ -33,6 +34,7 @@ L'objectif de ce site web est de fournir une plateforme conviviale permettant au
 - **Suivi des commandes** : Consultez et gérez les commandes passées par les utilisateurs.
 - **Gestion des utilisateurs** : Ajoutez ou retirez des utilisateurs autorisés à accéder à l'administration.
 - **Statistiques** : Visualisez les statistiques de ventes et de trafic du site.
+- **Gestion du blog** : Ajoutez ou retirez des articles, Répondre au commentaires des clients.
 
 ## Technologies Utilisées
 
