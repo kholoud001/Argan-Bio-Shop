@@ -1,0 +1,116 @@
+Cahier des charges - ArganBioShop
+
+1. Introduction
+
+1.1 Objectif du projet
+Le projet ArganBioShop vise à créer une plateforme en ligne pour la vente de produits d'argan bio. Le site doit offrir une expérience utilisateur conviviale pour les clients et des fonctionnalités de gestion efficaces pour les administrateurs.
+
+1.2 Portée du projet
+Le site web doit inclure des fonctionnalités pour les utilisateurs finaux, telles que la navigation dans le catalogue, le passage de commandes et la gestion de compte. Du côté administrateur, les fonctionnalités de gestion des produits, des commandes et des utilisateurs doivent être mises en place.
+
+
+2. Fonctionnalités
+
+2.1 Côté Utilisateur
+
+Page d'accueil :
+Présentation des produits en vedette.
+Liens vers les catégories de produits.
+
+Catalogue de produits :
+Liste des produits avec images, descriptions et prix.
+Possibilité de trier et de filtrer les produits.
+
+Panier d'achat :
+Ajout et suppression de produits.
+Calcul automatique du total.
+Passage facile à la caisse.
+
+Processus de commande :
+Saisie des informations de livraison.
+Choix des options de paiement.
+Confirmation de la commande.
+
+Historique des commandes :
+Page permettant aux utilisateurs de consulter leurs commandes passées.
+
+
+2.2 Côté Administrateur
+
+Tableau de bord d'administration :
+Vue d'ensemble des ventes, commandes en cours et utilisateurs actifs.
+
+Gestion des produits :
+Ajout, modification et suppression de produits.
+Gestion des catégories et des stocks.
+
+Suivi des commandes :
+Liste des commandes avec statut (en attente, expédiée, etc.).
+Possibilité de mettre à jour le statut des commandes.
+
+Gestion des utilisateurs :
+Ajout et suppression d'utilisateurs.
+Attribution de rôles (administrateur, utilisateur).
+
+
+3. Technologies
+
+Frontend :
+HTML5, CSS3, JavaScript
+[Framework frontend]
+
+Backend :
+[Framework backend]
+
+Base de données :
+[SQL,Laravel]
+
+
+4. Sécurité
+Utilisation de HTTPS pour sécuriser les transactions.
+Gestion sécurisée des mots de passe.
+Protection contre les attaques CSRF et XSS.
+
+
+5. Design
+Interface utilisateur intuitive et responsive.
+Utilisation de couleurs et d'images en harmonie avec le thème bio.
+
+
+6. Performances
+Temps de chargement rapide des pages.
+Optimisation des images et du code.
+
+
+7. Tests
+Tests unitaires pour le backend.
+Tests d'interface utilisateur.
+
+
+8. Livrables
+Code source complet hébergé sur GitHub.
+Documentation détaillée pour le déploiement et la maintenance.
+Rapport de tests.
+
+
+9. Échéancier
+
+Phase 1 : Conception et Planification (Semaines 1-2)
+Élaboration du cahier des charges détaillé.
+Conception de l'interface utilisateur.
+
+
+Phase 2 : Développement Frontend (Semaines 3-6)
+Mise en place du frontend avec les fonctionnalités utilisateur.
+
+
+Phase 3 : Développement Backend (Semaines 7-10)
+Mise en place du backend avec les fonctionnalités administratives.
+
+
+Phase 4 : Tests (Semaines 11-12)
+Tests approfondis du système.
+
+
+Phase 5 : Déploiement (Semaine 13)
+Mise en ligne du site web.
