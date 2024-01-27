@@ -1,0 +1,50 @@
+ArganBioShop - Conception Textuelle
+
+Côté Utilisateur
+
+Page d'Accueil:
+- Met en avant les produits phares et les catégories populaires.
+- Affiche des articles récents du blog pour une expérience immersive.
+
+Catalogue de Produits
+- Présente des descriptions détaillées, des images attrayantes et des prix compétitifs.
+- Utilisation de filtres pour une recherche facile et précise.
+
+Panier d'Achat
+- Ajout et suppression simples des produits.
+- Mise à jour automatique du total à chaque ajout.
+
+Processus de Commande
+- Saisie facile des détails de livraison.
+- Choix flexible des options de paiement.
+- Confirmation de la commande en quelques étapes.
+
+Historique des Commandes
+- Consultation aisée des commandes passées.
+- Suivi transparent de toutes les transactions.
+
+Blog
+- Articles informatifs sur les bienfaits de l'argan bio.
+- Interaction avec les commentaires pour partager des pensées.
+
+
+Côté Administrateur
+
+Tableau de Bord d'Administration
+- Vue globale des ventes, des commandes, des utilisateurs et des articles du blog.
+
+Gestion des Produits
+- Ajout, modification et suppression simples de produits.
+- Gestion aisée des catégories et de l'inventaire.
+
+Suivi des Commandes
+- Visualisation en temps réel de toutes les commandes.
+- Mise à jour facile du statut des commandes pour une communication efficace.
+
+Gestion des Utilisateurs
+- Ajout de nouveaux utilisateurs avec attribution de rôles.
+- Contrôle total sur les accès au site.
+
+Gestion du Blog
+- Création, modification et suppression d'articles du blog.
+- Interaction avec les commentaires pour maintenir un dialogue actif.
