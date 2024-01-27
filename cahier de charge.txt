@@ -34,6 +34,10 @@ Confirmation de la commande.
 Historique des commandes :
 Page permettant aux utilisateurs de consulter leurs commandes passées.
 
+Blog :
+Articles informatifs sur les bienfaits de l'argan bio.
+Possibilité de commenter et de partager les articles.
+
 
 2.2 Côté Administrateur
 
@@ -51,6 +55,11 @@ Possibilité de mettre à jour le statut des commandes.
 Gestion des utilisateurs :
 Ajout et suppression d'utilisateurs.
 Attribution de rôles (administrateur, utilisateur).
+
+
+Gestion du Blog :
+Ajout, modification et suppression d'articles.
+Possibilité de répondre aux commentaires.
 
 
 3. Technologies
