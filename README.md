@@ -38,10 +38,9 @@ L'objectif de ce site web est de fournir une plateforme conviviale permettant au
 
 ## Technologies Utilisées
 
-- HTML5, CSS3, JavaScript
-- Backend : [Framework backend]
-- Base de données : [SQL, Laravel]
-- Autres dépendances : [Liste des principales dépendances avec les versions]
+- HTML5, CSS3, JavaScript, Tailwind
+- Backend : [Laravel]
+- Base de données : [PostgreSQL]
 
 ## Contribuer
 
