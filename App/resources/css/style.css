@@ -1,0 +1,115 @@
+/* styles.css */
+
+/* Tailwind CSS customizations */
+/* For example, let's change the background color of the header */
+
+.header-bg {
+    background-color: #ffffff; /* White */
+}
+/* Additional styles */
+/* Add your own custom styles here */
+
+.navbar {
+    background-color: #ffffff; /* White */
+    border-bottom: 1px solid #d1d5db; /* Light gray */
+}
+
+.nav-link {
+    color: #374151; /* Dark gray text color */
+    font-size: 1.1rem; /* Larger font size */
+}
+
+.nav-link:hover {
+    color: #4b5563; /* Slightly darker gray text color on hover */
+}
+
+.search-icon {
+    width: 24px; /* Adjust width of search icon */
+}
+
+.account-icon {
+    width: 24px; /* Adjust width of account icon */
+}
+
+.cart-icon {
+    width: 32px; /* Adjust width of cart icon */
+}
+/* Add your custom CSS styles here */
+
+.nav-icon {
+    width: 24px;
+    height: 24px;
+}
+
+@media screen and (max-width: 768px) {
+    .nav-icon {
+        width: 20px;
+        height: 20px;
+    }
+}
+ /* Custom styles */
+ .navbar-link {
+    font-size: 0.875rem;
+    color: #4a5568;
+    transition: all 0.3s ease;
+}
+
+.navbar-link:hover {
+    color: #f56565;
+}
+
+.search-bar {
+    display: none;
+    /* Add your styles for the search bar */
+}
+
+.cart-popup {
+    display: none;
+    /* Add your styles for the cart popup */
+}
+/* Style pour les cartes en mode grille */
+.card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.card-price {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.card-button {
+    background-color: #4caf50;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.card-button:hover {
+    background-color: #45a049;
+}
+
