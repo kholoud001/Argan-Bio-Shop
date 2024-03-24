@@ -17,7 +17,6 @@ class RegisterController extends Controller
 
     public function register(Request $request)
     {
-
         $request->validate([
             'email' => 'required|email|unique:users',
             'name' => 'required|string|max:255|unique:users',
@@ -33,17 +32,17 @@ class RegisterController extends Controller
                 'role' => 'user',
             ]);
 
-            // Flash a success message to the session
-            Session::flash('success', 'You have been registered!');
-
             // Return a JSON response indicating success
-            return new JsonResponse(['message' => 'You have been registered!'], 200);
+            $response = new JsonResponse(['message' => 'You have been registered!'], 200);
+
+            // Add JavaScript to redirect after 5 seconds
+            $response->header('Refresh', '5;url=' . route('login'));
+
+            return $response;
         } catch (\Exception $e) {
             // Return a JSON response indicating failure
             return new JsonResponse(['error' => 'Registration failed. Please try again.'], 500);
         }
-
-        // Redirect the user to the login page
-        //return redirect()->route('login')->with('success', 'You have been registered!');
     }
+
 }
