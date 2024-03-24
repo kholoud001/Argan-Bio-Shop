@@ -18,11 +18,12 @@ return new class extends Migration
             $table->string('name');
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
-            $table->string('password');
+            $table->string('password')->nullable();
             $table->string('picture')->nullable();
             $table->string('address')->nullable();
             $table->enum('role', ['admin', 'user', 'viewer'])->default('viewer');
             $table->string('cell')->nullable();
+            $table->string('google_id')->nullable();
             $table->rememberToken();
             $table->timestamps();
         });

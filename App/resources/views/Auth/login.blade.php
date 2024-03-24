@@ -18,9 +18,12 @@
             <div class="text-4xl font-medium text-neutral-700">
                 Login
             </div>
-            <form class="mt-12 max-w-full">
-                <div class="social-icons mt-4 flex flex-col md:flex-row md:gap-2">
+
+                <div class="social-icons mt-10 flex flex-col md:flex-row md:gap-2">
                     <!-- Gmail Login Button -->
+                    <form action="{{route('google-auth')}}" method="GET">
+                        @csrf
+
                     <button class="group h-12 px-4 border-2 border-gray-300 rounded-full transition duration-300
                         hover:border-red-300 focus:bg-red-300 active:bg-red-300 mb-2 md:mb-0">
                         <div class="relative flex items-center space-x-6 justify-center">
@@ -28,6 +31,7 @@
                             <span class="block w-max font-semibold tracking-wide text-gray-700 text-sm transition duration-300 group-hover:text-red-300 sm:text-base">Continue with Google</span>
                         </div>
                     </button>
+                    </form>
 
                     <!-- Facebook Login Button -->
                     <button class="group h-12 px-4 border-2 border-gray-300 rounded-full transition duration-300
@@ -38,6 +42,7 @@
                         </div>
                     </button>
                 </div>
+            <form class=" max-w-full">
                 <div class="mt-5">
                     <label for="email" class="text-sm font-medium capitalize text-neutral-700">Email</label>
                     <input type="email" id="email" name="email" class="rounded-xl block w-full mt-1 text-xs leading-8 bg-gray-400 bg-opacity-20 rounded-[70px] text-neutral-700 text-opacity-50 px-3.5 py-2 focus:outline-none focus:ring-2 focus:ring-red-300" placeholder="Enter your email" required>
@@ -52,7 +57,7 @@
                         <label for="remember_me">Remember me</label>
                     </div>
                     <div class="flex-end text-sm font-medium text-red-300 capitalize">
-                        <a href="#" class="hover:underline">Mot de passe oublié?</a>
+                        <a href="{{ route('password.email') }}" class="hover:underline">Mot de passe oublié?</a>
                     </div>
                 </div>
                 <div class="flex flex-col md:flex-row justify-between gap-5 mt-5">

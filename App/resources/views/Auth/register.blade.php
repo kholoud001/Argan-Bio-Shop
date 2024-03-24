@@ -69,14 +69,21 @@
 @include('inc/footer')
 
 <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-
 <script>
+    const registerRoute = '{{ route('register') }}';
+    const loginRoute = '{{ route('login') }}';
+
+    // register.js
     document.getElementById('registerForm').addEventListener('submit', async function(event) {
         event.preventDefault();
         try {
             const formData = new FormData(this);
-            const response = await axios.post('{{ route('register') }}', formData);
+            const response = await axios.post(registerRoute, formData);
             showMessage(response.data.message, true);
+            // Redirect to login page after 5 seconds
+            setTimeout(() => {
+                window.location.href = loginRoute;
+            }, 5000);
         } catch (error) {
             console.error('Registration failed:', error);
             showMessage(error.response.data.message, false);
@@ -93,7 +100,11 @@
             document.body.removeChild(toast);
         }, 5000);
     }
+
 </script>
+{{--<script src="{{ asset('js/register.js') }}"></script>--}}
+
+
 
 </body>
 </html>
