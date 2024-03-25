@@ -80,6 +80,9 @@
 </body>
 </html>
 <script>
+
+
+
     function showSearchBar() {
         // Toggle visibility of search bar
         var searchBar = document.querySelector('.search-bar');

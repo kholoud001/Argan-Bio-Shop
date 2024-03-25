@@ -1,6 +1,4 @@
-<div
-    class="flex flex-col items-center self-stretch pt-10 pb-6 mt-16 w-full bg-gray-700 max-md:mt-10 max-md:max-w-full">
-    >
+<footer class="flex flex-col items-center self-stretch pt-10 pb-6 mt-16 w-full bg-gray-700 max-md:mt-10 max-md:max-w-full">>
     <div class="flex gap-5 justify-between px-5 max-w-full w-[390px]">
         <img
             loading="lazy"
@@ -153,4 +151,4 @@
             <div class="flex-auto">terms and conditions</div>
         </div>
     </div>
-</div>
+</footer>
